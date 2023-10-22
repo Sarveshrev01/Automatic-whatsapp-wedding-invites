@@ -1,14 +1,14 @@
 import pandas as pd
 import pywhatkit as pwk
 
-database = pd.read_excel('/Users/bahet_i7cuys5/Desktop/WhatsApp message/numbers.xlsx')
+database = pd.read_excel('numbers.xlsx')
 Ghar = database.Ghar
 Friends = database.Friends
 Baheti = database.Baheti
 Laddha = database.Laddha
 
-image = '/Users/bahet_i7cuys5/Desktop/WhatsApp message/WhatsApp Image 2023-07-24 at 5.43.08 PM.jpeg'
-caption = "Save the date! You are cordially invited to Shraddha and Aryan's wedding on 14-15 December at Bhanwar Singh Palace, Pushkar"
+image = 'blank.jpeg'
+caption = "Save the date! You are cordially invited tomwedding on 14-15 December at Venue, city"
 
 # Ghar:
 wait = input('Ghar')
